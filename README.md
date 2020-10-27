@@ -10,6 +10,7 @@ This project focuses on practice building an animated navigation menu. Below lis
 
 ## Challenges
 - Flexbox is a newer technology to me than the grid is. I'm aware of the importance of knowing the difference and uses between both. I have began trying to understand exactly how it is used in comparison to grid.
+- The `::before` and `::after` selectors in CSS is new territory as well. To combat this knowledge gap, I am researching exactly how they work.
 
 ## Key Features
 - An animated hamburger menu that displays a navigation bar on click.

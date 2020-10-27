@@ -62,3 +62,22 @@ body {
 .menu-toggle .two {
     margin-bottom: 7px;
 }
+
+.main-contents {
+    flex: auto;
+}
+
+.main-contents h2 {
+    letter-spacing: 1.5px;
+    margin-bottom: .6rem;
+    text-transform: uppercase;
+}
+
+.main-contents p {
+    font-size: 1.1rem;
+    letter-spacing: 1.7px;
+    line-height: 1.35;
+    color: #ccc;
+    transition-delay: 150ms;
+    transition-duration: 850ms;
+}
