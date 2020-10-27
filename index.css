@@ -1,0 +1,21 @@
+* {
+    padding: 0; border: 0; margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ccc;
+}
+
+body {
+    background-color: rgb(50, 101, 134);
+}
+
+.wrapper { 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1550px;
+    padding-top: .5rem;
+    width: 93%;
+}
