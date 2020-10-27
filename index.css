@@ -81,3 +81,32 @@ body {
     transition-delay: 150ms;
     transition-duration: 850ms;
 }
+
+.main-nav.list::before,
+.main-nav-list::after {
+    background-color: #b94071;
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 0vw;
+    transition: all 100ms ease-in-out 300ms;
+}
+
+.main-nav-list::before {
+    left: 0;
+}
+
+.main-nav-list::after {
+    right: 0;
+}
+
+.main-nav-list ul {
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 2000;
+}
