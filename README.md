@@ -8,4 +8,4 @@ This project focuses on practice building an animated navigation menu. Below lis
 
 
 ## Challenges
-- New repo. No information is available at this time.
+- 1. Flexbox is a newer technology to me than the grid is. I'm aware of the importance of knowing the difference and uses between both. I have began trying to understand exactly how it is used in comparison to grird.
