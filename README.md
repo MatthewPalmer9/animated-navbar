@@ -25,7 +25,7 @@ This project focuses on practice building an animated navigation menu. Below lis
 | None      | N/A       |
 
 ## Back-end Documentation
-There is currently no back-end associated with this project
+There is currently no back-end associated with this project.
 
 ## Getting started
 To get the site running locally:
@@ -38,7 +38,7 @@ Note: You can download the current version of Live Server (5.6.1) by Ritwick Dey
 There is currently no scripting on this application.
 
 ## Testing Documentation
-There is currently no testing on this application
+There is currently no testing on this application.
 
 ## Making Contributions
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
