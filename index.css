@@ -19,3 +19,46 @@ body {
     padding-top: .5rem;
     width: 93%;
 }
+
+.main-header a {
+    letter-spacing: .18rem;
+    text-transform: uppercase;
+}
+
+.masthead {
+    /* Both are necessary to keep the #menu-toggle visible when nav list is active / open */
+    position: relative;
+    z-index: 1000;
+    /****************************/
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
+
+.masthead h1 {
+    transition-delay: 450ms;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    width: 55px;
+    z-index: 3;
+}
+
+.menu-toggle div {
+    background-color: #ccc;
+    border-radius: 25px;
+    box-shadow: 0px 3px 13px rgba(0,0,0,.3);
+    height: 7px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(.13,.24,.35,1.64);
+}
+
+.menu-toggle .one,
+.menu-toggle .two {
+    margin-bottom: 7px;
+}
